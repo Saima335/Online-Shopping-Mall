@@ -1,0 +1,169 @@
+<!-- Add Items to the Cart. This Page comes on clicking order now button in home screen. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            font-size: 17px;
+            background-image: none;
+        }
+
+        .container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container img {
+            vertical-align: middle;
+        }
+
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            /* Fallback color */
+            background: rgba(0, 0, 0, 0.5);
+            /* Black background with 0.5 opacity */
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 30px;
+            margin: 40px;
+        }
+
+        
+
+        .button2 {
+            background-color: #008CBA;
+            color: black;
+            border: 2px solid #008CBA;
+            color: white;
+        }
+
+        .button2:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a style="float: left;" class="active" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
+        <li><a style="float: left;" href="index.html#services-container"><i
+                    class="fa fa-solid fa-shopping-cart"></i>Services</a></li>
+        <li><a style="float: left;" href="index.html#contact"><i class="fa fa-phone fa-lg"></i>Contact</a></li>
+        <li><a style="float: left;" href="about.html"><i class="fa fa-user fa-lg"></i>About</a></li>
+        <li><a style="float: left;" href="cart.html"><i class="fa fa-key fa-lg"></i>View Cart</a></li>
+        <li style="float: right; margin-right: 30px;" class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Account</a>
+            <div class="dropdown-content">
+                <a href="signin.html">Login</a>
+                <a href="signup.html">Create Account</a>
+            </div>
+        </li>
+    </ul>
+    <div class="products">
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/winterclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Winter Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/winterclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Winter Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="container">
+            <img src="images/winterclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Winter Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. T</p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/summerclothe.jpg" alt="Notebook" style="width:100%;">
+            <div class="content">
+                <h1>Summer Clothes</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. </p>
+                <button class="button button2">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineShoppingMall.com. All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>

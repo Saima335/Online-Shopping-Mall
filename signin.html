@@ -1,0 +1,59 @@
+<!-- This is the user login form -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <ul>
+        <li><a style="float: left;" class="active" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
+        <li><a style="float: left;" href="index.html#services-container"><i class="fa fa-solid fa-shopping-cart"></i>Services</a></li>
+        <li><a style="float: left;" href="index.html#contact"><i class="fa fa-phone fa-lg"></i>Contact</a></li>
+        <li><a style="float: left;" href="about.html"><i class="fa fa-user fa-lg"></i>About</a></li>
+        <li style="float: right; margin-right: 30px;" class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Account</a>
+            <div class="dropdown-content">
+                <a href="signin.html">Login</a>
+                <a href="signup.html">Create Account</a>
+            </div>
+        </li>
+    </ul>
+    <div class="my-form">
+        <form>
+            <h1>Sign In</h1>
+            <div class="font-awesome-library">
+                <label for="email" class="form-label">Email</label><br>
+                <input type="email" id="email" name="email" class="input-box" placeholder="Enter Email"><br>
+                <i class="fa fa-envelope fa-lg"></i>
+            </div>
+            <div class="font-awesome-library">
+                <label for="password" class="form-label">Password</label><br>
+                <input type="password" id="password" name="password" class="input-box" placeholder="Enter Password"><br>
+                <i class="fa fa-key fa-lg"></i>
+            </div>
+
+            <div class="row">
+                <div class="remeber">
+                    <input type="checkbox" class="with-gap" name="persist" id="persist" />
+                    <label for="persist">Remember me</label>
+                </div>
+                <div class="forget">
+                    <a href="#">Forgot password?</a><br>
+                </div>
+            </div>
+            <button type="button" class="form-btn">Sign In</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Create Account</a> </p>
+
+    </div>
+</body>
+
+</html>
